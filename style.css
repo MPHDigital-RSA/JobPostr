@@ -309,6 +309,8 @@ nav a:hover {
     .cards {
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
@@ -470,4 +472,10 @@ section.spend {
         padding: 10px 15px;
         font-size: 14px;
     }
+
+    section.spend {
+        padding-right: 2em;
+        padding-left: 2em;
+    }
+
 }
