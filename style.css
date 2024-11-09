@@ -316,20 +316,26 @@ nav a:hover {
 
 /* SUBMIT------------------------------- */
 
+section.submit {
+    padding-inline: 2em;
+}
+
 section.submit .container {
     background-color: var(--accent);
     padding-top: 50px;
     border-radius: 30px;
 
-    max-height: 700px;
+    max-height: 650px;
     overflow: hidden;
 
     display: flex;
     flex-direction: column;
     gap: 30px;
 
-    margin-inline: 2em;
+    margin-inline: auto;
     margin-top: 50px;
+
+    max-width: 65em;
 }
 
 .submit .heading-text {
@@ -366,7 +372,7 @@ section.submit .container {
     section.submit .container {
         margin-top: 20px;
         max-height: 450px;
-        padding-inline: 1em;
+        border-radius: 12px;
     }
 
     .submit .heading-text h2 {
@@ -391,6 +397,7 @@ section.submit .container {
         max-height: 350px;
         gap: 15px;
         padding-inline: 1em;
+        border-radius: 12px;
     }
 
     .submit .heading-text h2 {
