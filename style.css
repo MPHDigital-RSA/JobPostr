@@ -274,6 +274,11 @@ nav a:hover {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 32px;
+
+    max-width: 74em;
+    margin-inline: auto;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 .card {
@@ -335,7 +340,7 @@ section.submit .container {
     margin-inline: auto;
     margin-top: 50px;
 
-    max-width: 65em;
+    max-width: 70em;
 }
 
 .submit .heading-text {
@@ -411,6 +416,58 @@ section.submit .container {
     }
 
     .submit .heading-text p {
+        font-size: 14px;
+    }
+}
+
+/* SPEND------------------------------- */
+
+section.spend {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-bottom: 50px;
+}
+
+.spend-headings {
+    text-align: center;
+    margin-top: 50px;
+    /* max-width: 450px; */
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+
+    padding: 0px 2em;
+}
+
+.spend-headings h3 {
+    color: var(--white);
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.spend-headings p {
+    color: var(--white);
+    font-size: 14px;
+}
+
+@media (max-width: 980px) {
+    .spend-headings h3 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    .spend-headings {
+        max-width: 650px;
+    }
+
+    .spend-headings button {
+        margin-top: 20px;
+        padding: 10px 15px;
         font-size: 14px;
     }
 }
