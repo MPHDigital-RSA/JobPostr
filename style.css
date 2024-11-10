@@ -18,8 +18,7 @@
 
 body {
     background-color: var(--black);
-    position: relative;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .container {
@@ -140,6 +139,7 @@ nav ul {
     display: flex;
     gap: 20px;
     list-style-type: none;
+    /* overflow: hidden; */
 }
 
 nav a {
