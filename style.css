@@ -714,6 +714,7 @@ footer {
 
 footer .container {
     max-width: 74em;
+    padding-inline: unset;
 }
 
 .upper-footer {
